@@ -1,0 +1,27 @@
+TITLE: About
+------------
+
+<div class="align-left">
+
+![Joao Carreira](/jfmcarreira/assets/img/carreira.jpg)
+
+</div>
+
+
+My name is João Filipe Monteiro Carreira. I have a masters degree in Electronic Engineering in the area of telecomunication.
+
+
+I am currently pursuing my PhD degree in the area of multimedia communication and video processing at Loughborough University in London. My current research aims to develop efficient error resilience and error concealment techniques for the forthcoming multimedia services based on High Efficiency Video Coding (HEVC) standard.
+My research interests also include 2D/3D video compression and transmission, subjective and objective quality evaluation under error-prone conditions and error resilience and concealment.
+
+
+
+
+I am very enthusiastic about Open-Source software and collaborative work. I am a proudly contributor of the PlaYUVer application, an open-source video player based on Qt focusing on image/video analysis.
+
+
+
+#### Contact
+
+- **Email**: jfmcarreira [at] gmail [dot] com
+- **IRC**: jfmcarreira [at] irc.{freenode,ptnet}.net

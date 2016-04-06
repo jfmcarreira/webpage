@@ -1,0 +1,11 @@
+TITLE: Projects
+------------
+
+I am a proud developer of the following open-source projects:
+
+- [@PlaYUVer](https://github.com/pixlra/playuver)
+
+
+All the other projects, proofs of concepts and code snippets are hosted on my own GitHub account:
+
+- [@jfmcarreira](https://github.com/jfmcarreira)
