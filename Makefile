@@ -1,8 +1,8 @@
 # Content
 
-AUTHOR_NAME = "João Carreira"
+AUTHOR_NAME = "Joao Carreira"
 AUTHOR_EMAIL = "jfmcarreira@gmail.com"
-SITE_TITLE = "João Carreira"
+SITE_TITLE = "Joao Carreira"
 SITE_TAGLINE = "A place for my random stuff"
 LOCALE = "en_UK.utf-8"
 
@@ -10,7 +10,7 @@ POSTS_PER_PAGE = 10
 POSTS_PER_PAGE_ATOM = 10
 
 POSTS = \
-	welcome \
+	introduction \
 	$(NULL)
 
 PAGES = \
@@ -22,6 +22,7 @@ PAGES = \
 ASSETS = \
 	assets/custom.css \
 	assets/img/carreira.jpg \
+	assets/img/carreira_icip.jpg \
 	$(NULL)
 
 
@@ -40,8 +41,10 @@ BLOGC_RUNSERVER_HOST ?= 127.0.0.1
 BLOGC_RUNSERVER_PORT ?= 8080
 
 OUTPUT_DIR ?= _build
-BASE_DOMAIN ?= http://fcarreira.dynip.sapo.pt/jfmcarreira
-BASE_URL ?= http://fcarreira.dynip.sapo.pt/jfmcarreira
+# BASE_DOMAIN ?=
+# BASE_URL ?=
+BASE_DOMAIN ?= http://fcarreira.dynip.sapo.pt
+BASE_URL ?= http://fcarreira.dynip.sapo.pt
 
 DATE_FORMAT = "%b %d, %Y, %I:%M %p GMT"
 DATE_FORMAT_ATOM = "%Y-%m-%dT%H:%M:%SZ"
@@ -172,7 +175,7 @@ serve: all
 		$(OUTPUT_DIR)
 
 upload:
-	$(shell rsync -az . fcarreira.dynip.sapo.pt:carreira-page/ > /dev/null )
+	$(shell rsync -az _build/ fcarreira.dynip.sapo.pt:WebServer/carreira/ > /dev/null )
 
 clean:
 	$(RM) -rf "$(OUTPUT_DIR)"

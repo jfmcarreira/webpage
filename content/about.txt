@@ -3,7 +3,7 @@ TITLE: About
 
 <div class="align-left">
 
-![Joao Carreira](/jfmcarreira/assets/img/carreira.jpg)
+![Joao Carreira](/assets/img/carreira_icip.jpg)
 
 </div>
 
@@ -17,12 +17,12 @@ My research interests also include 2D/3D video compression and transmission, sub
 
 
 
-I am very enthusiastic about Open-Source software and collaborative work. I am a proudly contributor of the PlaYUVer application, an open-source video player based on Qt focusing on image/video analysis.
+I am very enthusiastic about Open-Source software and collaborative work.
 
 
 
 #### Contact
 
 - **Email**: jfmcarreira [at] gmail [dot] com
-- **IRC**: jfmcarreira [at] irc.{freenode,ptnet}.net
-- **LinkedIn: [https://www.linkedin.com/in/jfmcarreira](https://www.linkedin.com/in/jfmcarreira)
+- **IRC**: jfmcarreira [at] irc.{freenodenet,ptnet.org}
+- **LinkedIn**: [https://www.linkedin.com/in/jfmcarreira](https://www.linkedin.com/in/jfmcarreira)

@@ -1,6 +1,6 @@
 ----
 <div class="jumbotron">
-  <h1>Hi there!</h1>
+  <h1>Welcome!</h1>
 
 My name is Joao Carreira and this is my place on the web!
 

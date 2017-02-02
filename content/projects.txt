@@ -1,9 +1,9 @@
 TITLE: Projects
 ------------
 
-I am a proud developer of the following open-source projects:
+I am currently developing the following open-source projects:
 
-- [@PlaYUVer](https://github.com/pixlra/playuver)
+- [PlaYUVer](https://github.com/pixlra/playuver) Video player based on Qt focusing on image/video analysis
 
 
 All the other projects, proofs of concepts and code snippets are hosted on my own GitHub account:
