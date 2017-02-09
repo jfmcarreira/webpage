@@ -1,2 +1,3 @@
-# blogc-example
-An example repository that can be used as base for a blogc website.
+# Webpage sources
+
+Sources of a blogc based webpage hosted at www.jfmcarreira.pt
