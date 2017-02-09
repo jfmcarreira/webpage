@@ -8,6 +8,7 @@
     <title>{{ SITE_TITLE }}{% block entry %}{% ifdef TITLE %} - {{ TITLE }}{% endif %}{% endblock %}{% block listing_once %} - {{ SITE_TAGLINE }}{% endblock %}</title>
     <link href="//cdn.jsdelivr.net/bootswatch/3.3.2/flatly/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ BASE_URL }}/assets/socialicons.css" rel="stylesheet">
     <link href="{{ BASE_URL }}/assets/custom.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
       <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -31,7 +32,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li{% if MENU == "blog" %} class="active"{% endif %}><a href="{{ BASE_URL }}/posts/">Blog</a></li>
             <li{% if MENU == "projects" %} class="active"{% endif %}><a href="{{ BASE_URL }}/projects/">Projects</a></li>
-            <li{% if MENU == "resume" %} class="active"{% endif %}><a href="{{ BASE_URL }}/resume">CV</a></li>
+            <li{% if MENU == "resume" %} class="active"{% endif %}><a href="{{ BASE_URL }}/resume">Resume</a></li>
             <li{% if MENU == "about" %} class="active"{% endif %}><a href="{{ BASE_URL }}/about/">About</a></li>
           </ul>
         </div>
@@ -39,7 +40,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-9">
+        <div class="col-md">
           {% ifdef FILTER_TAG %}
           <h4 class="tag-title">Tag:
             <span class="label label-default"><i class="glyphicon glyphicon-tag"></i> {{ FILTER_TAG }}</span>
@@ -91,17 +92,10 @@
           </article>
           {% endblock %}
         </div>
-        <div class="col-md-3 sidebar">
-          <!--<div class="panel panel-default hidden-xs">
-            <div class="panel-heading">
-              <h4 class="panel-title">Blog Tags</h4>
-            </div>
-            <div class="panel-body tagcloud">
-              {% foreach GLOBAL_TAGS %}
-              <span class="label label-default"><a href="/tag/{{ FOREACH_ITEM }}/"><i class="glyphicon glyphicon-tag"></i> {{ FOREACH_ITEM }}</a></span>
-              {% endforeach %}
-            </div>
-          </div>-->
+      </div>
+      <footer>
+        <!--      <div class="col-md-3">
+      <!--      <div class="col-md-3">
           <div class="panel panel-default hidden-xs">
             <div class="panel-heading">
               <h4 class="panel-title">Under the hood</h4>
@@ -110,21 +104,10 @@
               <a class="list-group-item" href="http://www.gentoo.org/">Gentoo Linux</a>
               <a class="list-group-item" href="http://git-scm.com/">Git</a>
               <a class="list-group-item" href="https://blogc.rgm.io/">Blogc</a>
-<!--               <a class="list-group-item" href="https://github.com/blogc/blogc-git-receiver">blogc-git-receiver</a> -->
             </div>
           </div>
-          <!--<div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Content License</h4>
-            </div>
-            <div class="panel-body">
-              <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-                <img alt="Creative Commons License" class="license" src="{{ BASE_URL }}/assets/img/creative-commons-88x31.png" />
-              </a>
-              This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-              Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-            </div>
-          </div>-->
+        </div>-->
+        <div class="col-md-7">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">Disclaimer</h4>
@@ -135,8 +118,18 @@
             </div>
           </div>
         </div>
-      </div>
-      <footer>
+        <div class="col-md-5">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">Connect</h4>
+            </div>
+            <div class="panel-body">
+              <a href="https://github.com/jfmcarreira"><i class="smicon-github"></i></a>
+              <a href="https://www.facebook.com/jfmcarreira"><i class="smicon-facebook"></i></a>
+              <a href="https://www.linkedin.com/in/jfmcarreira"><i class="smicon-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-12">
             <p>
@@ -146,6 +139,6 @@
         </div>
       </footer>
     </div>
-    <script src="//cdn.jsdelivr.net/g/jquery@2.1.4,bootstrap@3.3.4"></script>
+<!--     <script src="//cdn.jsdelivr.net/g/jquery@2.1.4,bootstrap@3.3.4"></script> -->
   </body>
 </html>

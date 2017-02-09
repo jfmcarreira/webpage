@@ -4,6 +4,7 @@ body {
 }
 
 p {
+  color: #000000
   margin-top: 6mm;
   margin-bottom: 2mm;
 }
@@ -14,6 +15,11 @@ footer p {
   margin: 16px;
   margin-top: 30px;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
 
 .clear {
   clear: both;
@@ -50,6 +56,10 @@ footer p {
   color: #EEE;
 }
 
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 h3 {
   margin-bottom: 15px;
@@ -68,4 +78,17 @@ div.align-left {
   float: left ;
   margin-right: 5mm;
 /*   margin-bottom: 5px; */
+}
+
+footer {
+  padding-top:50px;
+}
+footer .panel-title {
+  text-align: center;
+}
+footer .panel-body {
+  text-align: center;
+}
+footer .list-group {
+  text-align: center;
 }

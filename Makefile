@@ -20,7 +20,9 @@ PAGES = \
 	$(NULL)
 
 ASSETS = \
-	assets/custom.css \
+	assets/css/socialicons.css \
+	assets/css/custom.css \
+	assets/img/icons32px.png \
 	assets/img/carreira.jpg \
 	assets/img/carreira_icip.jpg \
 	$(NULL)
@@ -43,8 +45,8 @@ BLOGC_RUNSERVER_PORT ?= 8080
 OUTPUT_DIR ?= _build
 # BASE_DOMAIN ?=
 # BASE_URL ?=
-BASE_DOMAIN ?= http://fcarreira.dynip.sapo.pt
-BASE_URL ?= http://fcarreira.dynip.sapo.pt
+BASE_DOMAIN ?= http://wwww.jfmcarreira.pt
+BASE_URL ?= http://www.jfmcarreira.pt
 
 DATE_FORMAT = "%b %d, %Y, %I:%M %p GMT"
 DATE_FORMAT_ATOM = "%Y-%m-%dT%H:%M:%SZ"
@@ -174,10 +176,10 @@ serve: all
 		-p $(BLOGC_RUNSERVER_PORT) \
 		$(OUTPUT_DIR)
 
-upload:
+upload: all
 	$(shell rsync -az _build/ fcarreira.dynip.sapo.pt:WebServer/carreira/ > /dev/null )
 
-clean:
+clean: all
 	$(RM) -rf "$(OUTPUT_DIR)"
 
 .PHONY: all serve clean
