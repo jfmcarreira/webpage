@@ -177,7 +177,7 @@ serve: all
 		$(OUTPUT_DIR)
 
 upload: all
-	$(shell rsync -az _build/ fcarreira.dynip.sapo.pt:WebServer/carreira/ > /dev/null )
+	$(shell rsync -az _build/ hydrogen:WebServer/carreira/ > /dev/null )
 
 clean: all
 	$(RM) -rf "$(OUTPUT_DIR)"

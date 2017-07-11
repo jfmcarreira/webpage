@@ -3,7 +3,9 @@ TITLE: Resume
 
 ### **Education**
 
-**2015 - present: PhD student, Loughborough University in London, United Kingdom **
+**2015 - Present: PhD student, Loughborough University in London, United Kingdom **
+
+**2013 - 2015: PhD student, University of Surrey, United Kingdom **
 
 + Research within Institute for Digital Technologies (IDT), United Kingdom and  Instituto de Telecomunicações (IT), Portugal
 + Objective: Develop efficient error resilience and error concealment techniques for the forthcoming multimedia services based on High Efficiency Video Coding (HEVC) standard
@@ -17,11 +19,13 @@ TITLE: Resume
 ### **Experience**
 
 
+**2017: Assistant lecturer at Instituto Politécnico de Leiria, Portugal  **
+
++ Assistant lecturer of under-grad courses.
 
 **2014: Laboratory Demonstration at University of Surrey, United Kingdom **
 
 + Providing  support to students on circuits development and programming.
-
 
 
 **2012: Laboratory Demonstrator at Instituto Politécnico de Leiria, Portugal **
